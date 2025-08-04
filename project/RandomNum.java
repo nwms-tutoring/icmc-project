@@ -12,3 +12,8 @@ public class RandomNumberGenerator {
 
         return randomNumber;
     }
+    public static void main(String[] args) {
+        int randomNum = random(100, 999);
+        // simple 3 digit random number 
+    }
+}
