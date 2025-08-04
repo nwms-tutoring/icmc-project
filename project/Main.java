@@ -15,7 +15,6 @@ public class Main {
 
             if (guess == num) {
                 System.out.println("You got it! 🐂🐂🐂");
-                project.drawcow.drawcow();
                 break;
             } else if (guess < num) {
                 System.out.println("Too low! " + guesses + " guesses left!");
