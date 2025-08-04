@@ -1,8 +1,8 @@
-package project
+package project;
 import java.util.Random;
 
 public class RandomNumberGenerator {
-    public static void random(int min, int max) {
+    public static int random(int min, int max) {
          // Inclusive lower bound
          // Inclusive upper bound
 
@@ -12,4 +12,3 @@ public class RandomNumberGenerator {
 
         return randomNumber;
     }
-}
