@@ -6,11 +6,11 @@ public class Main {
         try {
             int secretNumber = random(100, 999);
             Scanner scan = new Scanner(System.in);
-            System.out.println("I've thought of a 3 digit number. Try to guess it! You get 6 attempts.");
+            System.out.println("I've thought of a 3 digit number. Try to guess it! You get 10 attempts.");
 
             boolean guessed = false;
 
-            for (int i = 0; i < 6; i++) {
+            for (int i = 0; i < 10; i++) {
                 System.out.print("Your guess: ");
 
                 // Check for input errors
