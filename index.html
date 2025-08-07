@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Project Runner</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+        h1 { color: #333; }
+        .project-list { margin-bottom: 2em; }
+        .output { background: #222; color: #eee; padding: 1em; border-radius: 5px; min-height: 100px; }
+        button { margin-top: 1em; }
+    </style>
+</head>
+<body>
+    <h1>Java Project Runner</h1>
+    <div class="project-list">
+        <label for="projectSelect">Select a project:</label>
+        <select id="projectSelect">
+            <option value="project">project</option>
+            <option value="project_v2">project_v2</option>
+            <option value="project_v3">project_v3</option>
+            <option value="project_v4">project_v4</option>
+        </select>
+        <button onclick="runProject()">Run</button>
+    </div>
+    <div>
+        <h2>Output</h2>
+        <pre class="output" id="output"></pre>
+    </div>
+    <script src="runJavaPlugin.js"></script>
+</body>
+</html>
